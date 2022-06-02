@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url("https://img.freepik.com/free-vector/underwater-background-water-surface-ocean-sea_33099-1755.jpg?t=st=1654157776~exp=1654158376~hmac=ffed546ca144562acda8f1126d9e1425896337412b05dd71a7c2e200566505a9&w=900");
+    background-repeat:repeat;
+    background-size:cover;  
+    
+}
+img{
+    width: 170px;
+    height: 170px;
+    float: left;
+    padding-right: 3rem;
+}
+.wrapper{
+    background-color:RGBA (O,O,O,O.5);
+    width:90%;
+    margin:0 auto;
+    height:80vh;
+    padding-bottom: 10px;
+
+}
+.header{
+    height:100px;
+    background-color:rgb(0, 0, 0);
+    line-height:100px;
+    padding-left:30px;
+    margin-top:10px;
+    
+}
+.header h2{
+    font-size:45px;
+    font-weight:bolder;
+    color:whitesmoke;
+    text-transform: uppercase;
+    text-align: center;
+} 
+.header span{
+    color:red;
+    font: weight 900px;
+}
+.nav{
+    height:80px;
+    background-color:rgb(100, 6, 251);
+}
+.nav ul{
+    list-style:none;
+}
+.nav ul li {
+    display:inline-block;
+    width:100px;
+    list-style:none;
+    margin-left:37rem;
+    font-weight:bolder;
+    line-height:100px;
+    font-size:20px;
+}
+.nav ul li a {
+    text-decoration:none;
+    color:rgb(0, 0, 0);
+    
+}
+.nav ul li a:hover{
+    color:orangered;
+    text-decoration-line:underline;
+}
+.nav ul li a:after{
+    content:"";
+    position:absolute;
+    transition:.3s;
+}
+.nav ul li a:hover:after{
+    width:100%;
+    
+}
+.Section1{
+    width: fit-content;
+    background-color:transparent;
+    color:black;
+}
+.Sub1 td{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    text-align: justify;
+    color:black;
+    background-color:#c9e2e2;
+   
+}
+.footer {
+    text-align: center;
+    padding-top:2rem;
+    padding-bottom:1rem;
+    background-color: #000000;
+    text-transform: uppercase;
+    color:whitesmoke;
+}
+.content{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-weight: bolder;
+    font-size: 21px;
+    text-align: center;
+}
+.content2{
+    font-weight: bold;
+    padding-left: 3rem;
+}
+.content2 .title{
+    text-align: left;
+    padding-left: 4rem;
+}
+.maincontent{
+    background-color: rgb(144, 232, 238);
+}
+.content3{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: bolder;
+    font-size: 21px;
+    text-align: left;
+}
+.content3 .about{
+    text-align: center;
+}
+.content3 .contact{
+    text-align: center;
+}
