@@ -110,11 +110,13 @@ img{
     font-weight: bold;
     padding-left: 5rem;
     padding-right: 5rem;
+    text-align: justify;
 }
 .content2 .sub{
     text-align: left;
     margin-left: 3rem;
     margin-right: 3rem;
+    
 }
 .content2 .head{
     text-align: center;
