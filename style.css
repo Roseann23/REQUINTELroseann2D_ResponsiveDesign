@@ -106,8 +106,10 @@ img{
     text-align: center;
 }
 .content2{
+    padding-top: 3rem;
     font-weight: bold;
-    padding-left: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 .content2 .sub{
     text-align: left;
