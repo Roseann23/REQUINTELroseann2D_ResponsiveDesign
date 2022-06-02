@@ -101,6 +101,8 @@ img{
 .content{
     padding-top: 5rem;
     padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     font-weight: bolder;
     font-size: 21px;
     text-align: center;
